@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{FD4833BF-0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassAndCollections", "src\GenericClassAndCollections\GenericClassAndCollections.csproj", "{9D01E00A-2727-4E78-BE20-83039788D76F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAndExtensionClass", "src\StaticAndExtensionClass\StaticAndExtensionClass.csproj", "{E7622A89-8939-46F7-A898-DFE662982748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{9D01E00A-2727-4E78-BE20-83039788D76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D01E00A-2727-4E78-BE20-83039788D76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D01E00A-2727-4E78-BE20-83039788D76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7622A89-8939-46F7-A898-DFE662982748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7622A89-8939-46F7-A898-DFE662982748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7622A89-8939-46F7-A898-DFE662982748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7622A89-8939-46F7-A898-DFE662982748}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9D01E00A-2727-4E78-BE20-83039788D76F} = {035C7CE7-64E2-4D53-A709-FC4C05748FAB}
+		{E7622A89-8939-46F7-A898-DFE662982748} = {035C7CE7-64E2-4D53-A709-FC4C05748FAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {083E03FE-5118-49CE-B1A6-F96ACAE573C7}
