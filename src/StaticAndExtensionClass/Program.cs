@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CommonLayer;
 using StaticAndExtensionClass;
 using System.Data.SqlClient;
 
@@ -46,6 +47,27 @@ ThreadSafeSingleton.Instance.SomeMethod();
 //using (FileStream stream = new StreamReader(new Stream())) { }
 
 
-  Console.ReadKey();
+
+
+#endregion
+
+
+#region ExtensionClass
+
+
+Person person = new();
+person.Name = "Ali";
+person.SurName = "Tan";
+// PersonExtensions.GetFullName(new Person());
+Console.Out.WriteLine(person.GetFullName());
+
+//"ali".Reverse();
+//"ali".All();
+
+RedisCache rc = new();
+rc.Set("name", "ali");
+
+
+Console.ReadKey();
 
 #endregion
